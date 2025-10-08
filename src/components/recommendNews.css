@@ -1,0 +1,40 @@
+.recommend-news-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend-news-card {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.recommend-news-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.recommend-news-source {
+  font-weight: bold;
+  color: blue;
+}
+
+.recommend-news-date {
+  font-style: italic;
+}
+
+.recommend-news-card a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}

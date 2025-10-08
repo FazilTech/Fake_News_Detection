@@ -1,0 +1,119 @@
+.search-top {
+  margin-top: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search-text {
+  display: flex;
+  align-items: center;
+}
+
+.search-text input {
+  height: 50px;
+  width: 60vh;
+  margin-left: 30px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  padding: 2px 20px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.search-text input:focus {
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.search-text a {
+  margin-left: 8px;
+  font-size: 25px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.search-text a:hover {
+  color: #007bff;
+}
+
+.recommned-top {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px 15px 10px 15px;
+}
+
+.recommned-top p {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.recommned-top a {
+  color: #007bff;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.recommned-top a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.recommend-bottom-up {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px 15px;
+}
+
+.news-image-card {
+  position: relative;
+  width: 100%;
+  max-width: 550px;   
+  height: 250px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.news-image-card:hover {
+  transform: scale(1.02);
+}
+
+.news-image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+  color: white;
+}
+
+.news-overlay h3 {
+  font-size: 18px;
+  margin: 5px 20px 0 0;
+  font-weight: 600;
+}
+
+.news-meta {
+  font-size: 12px;
+  opacity: 0.90;
+  color: whitesmoke;
+}

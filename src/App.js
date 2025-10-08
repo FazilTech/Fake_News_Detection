@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import ChatbotWidget from './components/chatbot.js';
+import Input from './components/input.js';
+import TopBar from './components/navbar.js';
+import News from './components/news.js';
+import SearchBar from './components/search.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='body-left'>
+        <div className='navbar'>
+        <TopBar />
+        </div>
+        <Input/>
+        <News/>
+      </div>
+      <div className='body-right'>
+        <SearchBar/>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,32 @@
+.news-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.news-card {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.news-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.news-source {
+  font-weight: bold;
+}
+
+.news-date {
+  font-style: italic;
+}
+
+.news-card a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
